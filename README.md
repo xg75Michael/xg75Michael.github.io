@@ -2,26 +2,16 @@
 ---
 ## 目录
 * [CSS-Properties](#CSS-Properties)  
-    >[1](#1)  
+    >[Positioning](#Positioning)  
     >>[2](#2)  
     >>>[3](#3)  
-* [CSS-Properties](#CSS-Properties)  
-
-
-===
- 表头  | 表头  | 表头
- ---- | ----- | ------  
- 单元格内容  | 单元格内容 | 单元格内容 
- 单元格内容  | 单元格内容 | 单元格内容  
+* [Links?](#links)  
 ---
-*强调*  (示例：斜体)<br>
- _强调_  (示例：斜体)<br>
-**加重强调**  (示例：粗体)<br>
- __加重强调__ (示例：粗体)<br>
-***特别强调*** (示例：粗斜体)<br>
-___特别强调___  (示例：粗斜体)<br>
----
-/*---------- Positioning ----------*/
+## CSS-Properties
+以下的 `CSS` 属性是对常用属性的一个简单的总结。<br>
+按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写。<br>
+想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>想给我买的麻烦移步最后一章</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊")<br>
+### Positioning
 /* static 静态定位 默认值 */<br>
 position: static;<br>
 /* absolute 绝对定位 向上找非 static 定位的元素来定位 */<br>
@@ -31,93 +21,83 @@ position: fixed;<br>
 /* sticky 粘性定位 需要配合 top/left 来写 IE不兼容 */<br>
 position: sticky;<br>
 position: -webkit-sticky;<br>
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: 100;
-/*---------- Box-model ----------*/
-/* block 块元素是 y 轴方向的布局 */
-display: block;
-/* inline 块元素是 x 和 y 轴方向的布局 */
-display: inline-block;
-/* inline 块元素是 x 轴方向的布局 */
-display: inline;
-display: none;
-display: flex;
-/* grid 最高端 但 ie 不兼容 */
-display: grid;
-float: right;
-width: 100px;
-height: 100px;
-/*---------- Typography ----------*/
-font: normal 13px "Helvetica Neue", sans-serif;
-line-height: 1.5;
-color: #333;
-text-align: center;
-/*---------- Visual ----------*/
-background-color: #f5f5f5;
-border: 1px solid #e5e5e5;
-border-radius: 3px;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
--ms-border-radius: 3px;
--o-border-radius: 3px;
-/*---------- Misc ----------*/
-opacity: 1;
+top: 0;<br>
+right: 0;<br>
+bottom: 0;<br>
+left: 0;<br>
+z-index: 100;<br>
+### Box-model
+/* block 块元素是 y 轴方向的布局 */<br>
+display: block;<br>
+/* inline 块元素是 x 和 y 轴方向的布局 */<br>
+display: inline-block;<br>
+/* inline 块元素是 x 轴方向的布局 */<br>
+display: inline;<br>
+display: none;<br>
+display: flex;<br>
+/* grid 最高端 但 ie 不兼容 */<br>
+display: grid;<br>
+float: right;<br>
+width: 100px;<br>
+height: 100px;<br>
+### Typography
+font: normal 13px "Helvetica Neue", sans-serif;<br>
+line-height: 1.5;<br>
+color: #333;<br>
+text-align: center;<br>
+### Visual
+background-color: #f5f5f5;<br>
+border: 1px solid #e5e5e5;<br>
+border-radius: 3px;<br>
+-webkit-border-radius: 3px;<br>
+-moz-border-radius: 3px;<br>
+-ms-border-radius: 3px;<br>
+-o-border-radius: 3px;<br>
+### Misc
+opacity: 1;<br>
+---
 
-
-
-## CSS-Properties
-以下的 `CSS` 属性是对常用属性的一个总结，按照 [他的](https://codeguide.co/#css-declaration-order "悬停显示文本") 推荐的声明顺序书写
+[link text]: http://www.reddit.com <br>
+[link text]: http://www.reddit.com
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "title text")
+---
+表头  | 表头  | 表头
+---- | ----- | ------  
+单元格内容  | 单元格内容 | 单元格内容 
+单元格内容  | 单元格内容 | 单元格内容  
+---
+123|234|345
+:-|:-:|-:
+abc|bcd|cde
+abc|bcd|cde
+abc|bcd|cde
+---
+~~删除~~
+*强调*  (示例：斜体)<br>
+ _强调_  (示例：斜体)<br>
+**加重强调**  (示例：粗体)<br>
+ __加重强调__ (示例：粗体)<br>
+***特别强调*** (示例：粗斜体)<br>
+___特别强调___  (示例：粗斜体)<br>
+---
 ```
-这是一段代码的引用 没有标识任何语言
+这是一段代码的引用 没有标识 JavaScript
+var a = 1;
 ```
 ```JavaScript
 这是一段代码的引用 标识了 JavaScript
+var a = 1;
 ```
-
-/*---------- Positioning ----------*/
-/* static 静态定位 默认值 */
-position: static;
-/* absolute 绝对定位 向上找非 static 定位的元素来定位 */
-position: absolute;
-position: relative;
-position: fixed;
-/* sticky 粘性定位 需要配合 top/left 来写 IE不兼容 */
-position: sticky;
-position: -webkit-sticky;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: 100;
-/*---------- Box-model ----------*/
-/* block 块元素是 y 轴方向的布局 */
-display: block;
-/* inline 块元素是 x 和 y 轴方向的布局 */
-display: inline-block;
-/* inline 块元素是 x 轴方向的布局 */
-display: inline;
-display: none;
-display: flex;
-/* grid 最高端 但 ie 不兼容 */
-display: grid;
-float: right;
-width: 100px;
-height: 100px;
-/*---------- Typography ----------*/
-font: normal 13px "Helvetica Neue", sans-serif;
-line-height: 1.5;
-color: #333;
-text-align: center;
-/*---------- Visual ----------*/
-background-color: #f5f5f5;
-border: 1px solid #e5e5e5;
-border-radius: 3px;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
--ms-border-radius: 3px;
--o-border-radius: 3px;
-/*---------- Misc ----------*/
-opacity: 1;
+```css
+标识了 css
+body{font-size:12px}
+    body{font-size:12px}
+```
+<strong>Blockquotes 引用：</strong>
+> Email-style angle brackets
+> are used for blockquotes.
+> > And, they can be nested.
+> #### Headers in blockquotes
+> * You can quote a list.
+> * Etc.
+`.md` 文件基本语法可以参考这个 [Markdown Guide]: https://www.markdownguide.org/basic-syntax/ <br>
