@@ -1,15 +1,14 @@
 # Cheating Time
 ## 目录
-**[CSS-Properties](#CSS-Properties)**  
+- **[CSS-Properties](#CSS-Properties)**  
     - [Positioning](#Positioning) 
         - [position](#position)
-        - [111111](#1)
     - [Box-Model](#Box-Model) 
     - [Typography](#Typography) 
     - [Visual](#Visual) 
     - [Misc](#Misc)   
-**[Links?](#links)**
-**[惊喜](#surprise)**
+- **[Links?](#links)**
+- **[惊喜](#surprise)**
 ---
 
 ## CSS-Properties
