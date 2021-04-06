@@ -1,28 +1,26 @@
 # Cheating Time
 ---
 ## 目录
-* [CSS-Properties](#CSS-Properties)  
-    > [Positioning](#Positioning)  
-    - 次级
-    - [111111](#1)  
-    - [222222](#2)  
-    >
-    > [Box-Model](#Box-Model)  
-        - [333333](#1)  
-        - [444444](#2)  
-    >
-    > [Box-Model](#Box-Model)  
-        >> [333333](#1)  
-        >> [444444](#2)  
-    >
-    > [Typography](#Typography)  
-    > [Visual](#Visual)  
-    > [Misc](#Misc)  
-* [Links?](#links)  
+> * [CSS-Properties](#CSS-Properties)  
+>   - [Positioning](#Positioning) 
+>       - 次级
+>       - [111111](#1)
+>       - [111111](#1)
+>   - [Box-Model](#Box-Model) 
+>       - 次级
+>       - [222](#2)
+>       - [222](#2)
+>   - [Typography](#Typography) 
+>       - 次级
+>       - [333](#3)
+>       - [333](#3)
+>   - [Visual](#Visual) 
+>   - [Misc](#Misc) 
+> * [Links?](#links)  
+
 ---
 <br>
-> 123
->> 456
+
 ## CSS-Properties
 以下的 `CSS` 属性是对常用属性的一个简单的总结，也算是自己工作中的笔记吧。<br>
 属性是按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写的。<br>
