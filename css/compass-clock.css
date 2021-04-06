@@ -1,0 +1,85 @@
+.compass-clock {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    background-color: #222;
+    box-shadow: 0 0 25px 3px #000, 0 0 10px rgba(0, 0, 0, 0.8) inset;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dial-container {
+    position: absolute;
+    width: 460px;
+    height: 460px;
+    margin: 20px;
+    background-color: #ddd;
+    box-shadow: 0 0 25px 3px #00f inset;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dial-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+    background-color: #f00;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.dial-indicator::before {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-left-color: red;
+    left: 0px;
+    top: -7px;
+}
+
+.dial-indicator::after {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-right-color: red;
+    right: 0;
+    top: -7px;
+}
+
+.dial-second,
+.dial-minute,
+.dial-hour {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dial-second span,
+.dial-minute span,
+.dial-hour span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1vw;
+    height: 0;
+    margin: auto;
+    line-height: 0;
+    text-align: center;
+    transform-origin: 50%;
+}

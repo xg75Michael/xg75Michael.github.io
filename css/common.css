@@ -1,0 +1,137 @@
+body {
+    font-family: "Manrope", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 24px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+main {
+    display: block
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+a:focus,
+a:hover,
+a:active {
+    outline: 0
+}
+
+.font-ico-weixin {
+    width: 50px;
+    height: 50px;
+    background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2060%2060'%3E%20%3Cdefs%3E%20%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%20%3C/defs%3E%20%3Cg%3E%20%3Cg%3E%20%3Ccircle%20cx='30'%20cy='30'%20r='30'/%3E%20%3Cpath%20class='cls-1'%20d='M26.75,15.12c-7,0-12.75,4.76-12.75,10.63a10.08,10.08,0,0,0,4.87,8.33l-1.68,3.36,4.58-2a15.36,15.36,0,0,0,3.09.77,8.9,8.9,0,0,1-.24-2c0-5.86,5.72-10.63,12.76-10.63a16.81,16.81,0,0,1,1.89.13C38.15,18.84,33,15.12,26.75,15.12Zm-4.25,8a1.59,1.59,0,1,1,1.59-1.59A1.59,1.59,0,0,1,22.5,23.09Zm8.5,0a1.59,1.59,0,1,1,1.59-1.59A1.59,1.59,0,0,1,31,23.09Z'/%3E%20%3Cpath%20class='cls-1'%20d='M48,34.25c0-4.69-4.76-8.5-10.62-8.5s-10.63,3.81-10.63,8.5,4.76,8.5,10.63,8.5a13.21,13.21,0,0,0,2.77-.33l5.73,2.46-2-4A8,8,0,0,0,48,34.25Zm-13.81-.53a1.6,1.6,0,1,1,1.59-1.6A1.6,1.6,0,0,1,34.19,33.72Zm6.37,0a1.6,1.6,0,1,1,1.6-1.6A1.6,1.6,0,0,1,40.56,33.72Z'/%3E%20%3C/g%3E%20%3C/g%3E%20%3C/svg%3E") no-repeat
+}
