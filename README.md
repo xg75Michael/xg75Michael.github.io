@@ -1,22 +1,16 @@
 # Cheating Time
----
 ## 目录
-> **[CSS-Properties](#CSS-Properties)**  
->   - [Positioning](#Positioning) 
->       - [position](#position)
->       - [111111](#1)
->   - [Box-Model](#Box-Model) 
->       - [222](#2)
->       - [222](#2)
->   - [Typography](#Typography) 
->       - [333](#3)
->       - [333](#3)
->   - [Visual](#Visual) 
->   - [Misc](#Misc)   
-> **[Links?](#links)**  
-
+**[CSS-Properties](#CSS-Properties)**  
+    - [Positioning](#Positioning) 
+        - [position](#position)
+        - [111111](#1)
+    - [Box-Model](#Box-Model) 
+    - [Typography](#Typography) 
+    - [Visual](#Visual) 
+    - [Misc](#Misc)   
+**[Links?](#links)**
+**[惊喜](#surprise)**
 ---
-<br>
 
 ## CSS-Properties
 以下的 `CSS` 属性是对常用属性的一个简单的总结，也算是自己工作中的笔记吧。<br>
@@ -25,8 +19,9 @@
 ### Positioning
 #### position
 `position: static | relative | absolute | sticky | fixed`
-- `absolute` 根据上一个非 `statuc` 定位的父类元素来进行定位。
-- `absolute` 根据上一个非 `statuc` 定位的父类元素来进行定位。
+- `absolute` 根据非 `statuc` 定位的父类元素来进行定位。
+- `absolute` 根据非 `statuc` 定位的父类元素来进行定位。
+<br>
 /* static 静态定位 默认值 */<br>
 position: static;<br>
 /* absolute 绝对定位 向上找非 static 定位的元素来定位 */<br>
