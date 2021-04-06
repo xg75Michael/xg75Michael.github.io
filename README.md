@@ -3,14 +3,23 @@
 ## 目录
 * [CSS-Properties](#CSS-Properties)  
     >[Positioning](#Positioning)  
-    >>[2](#2)  
-    >>>[3](#3)  
+    >>[1](#1)  
+    >>>[2](#2)  
+    >[Box-Model](#Box-Model)  
+        >>[1](#1)  
+        >>>[2](#2)  
+    >[Typography](#Typography)  
+        >>[1](#1)
+        >>>[2](#2)
+    >[Visual](#Visual)  
+    >[Misc](#Misc)  
+    
 * [Links?](#links)  
 ---
 ## CSS-Properties
-以下的 `CSS` 属性是对常用属性的一个简单的总结。<br>
-按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写。<br>
-想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>想给我买的麻烦移步最后一章</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊")<br>
+以下的 `CSS` 属性是对常用属性的一个简单的总结，也算是自己工作中的笔记吧。<br>
+属性是按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写的。<br>
+想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>惊喜在最后一章</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊") 。<br>
 ### Positioning
 /* static 静态定位 默认值 */<br>
 position: static;<br>
@@ -26,7 +35,7 @@ right: 0;<br>
 bottom: 0;<br>
 left: 0;<br>
 z-index: 100;<br>
-### Box-model
+### Box-Model
 /* block 块元素是 y 轴方向的布局 */<br>
 display: block;<br>
 /* inline 块元素是 x 和 y 轴方向的布局 */<br>
@@ -68,7 +77,7 @@ opacity: 1;<br>
 ---
 123|234|345
 :-|:-:|-:
-abc|bcd|cde
+aaaabc|bbbbcd|ccccde
 abc|bcd|cde
 abc|bcd|cde
 ---
@@ -100,4 +109,5 @@ body{font-size:12px}
 > #### Headers in blockquotes
 > * You can quote a list.
 > * Etc.
+
 `.md` 文件基本语法可以参考这个 [Markdown Guide]: https://www.markdownguide.org/basic-syntax/ <br>
