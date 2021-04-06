@@ -2,24 +2,22 @@
 ---
 ## 目录
 * [CSS-Properties](#CSS-Properties)  
-    >[Positioning](#Positioning)  
-    >>[1](#1)  
-    >>>[2](#2)  
-    >[Box-Model](#Box-Model)  
-        >>[1](#1)  
-        >>>[2](#2)  
-    >[Typography](#Typography)  
-        >>[1](#1)
-        >>>[2](#2)
-    >[Visual](#Visual)  
-    >[Misc](#Misc)  
+    > [Positioning](#Positioning)  
+    >> [1](#1)  
+    >>> [2](#2)  
+    > [Box-Model](#Box-Model)  
+        >> [1](#1)  
+        >>> [2](#2)  
+    > [Typography](#Typography)  
+    > [Visual](#Visual)  
+    > [Misc](#Misc)  
     
 * [Links?](#links)  
 ---
 ## CSS-Properties
 以下的 `CSS` 属性是对常用属性的一个简单的总结，也算是自己工作中的笔记吧。<br>
 属性是按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写的。<br>
-想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>惊喜在最后一章</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊") 。<br>
+想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>惊喜在最后</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊") 。<br>
 ### Positioning
 /* static 静态定位 默认值 */<br>
 position: static;<br>
