@@ -3,19 +3,16 @@
 ## 目录
 > **[CSS-Properties](#CSS-Properties)**  
 >   - [Positioning](#Positioning) 
->       - 次级
->       - [111111](#1)
+>       - [position](#position)
 >       - [111111](#1)
 >   - [Box-Model](#Box-Model) 
->       - 次级
 >       - [222](#2)
 >       - [222](#2)
 >   - [Typography](#Typography) 
->       - 次级
 >       - [333](#3)
 >       - [333](#3)
 >   - [Visual](#Visual) 
->   - [Misc](#Misc) 
+>   - [Misc](#Misc)   
 > **[Links?](#links)**  
 
 ---
@@ -26,6 +23,10 @@
 属性是按照 [codeguide](https://codeguide.co/#css-declaration-order "codeguide") 推荐的声明顺序书写的。<br>
 想更全面的了解 `CSS` 属性的客官们，希望您能点杯咖啡<sub>惊喜在最后</sub>慢慢钻研 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS "是CSS圣经啊") 。<br>
 ### Positioning
+#### position
+`position: static | relative | absolute | sticky | fixed`
+- `absolute` 根据上一个非 `statuc` 定位的父类元素来进行定位。
+- `absolute` 根据上一个非 `statuc` 定位的父类元素来进行定位。
 /* static 静态定位 默认值 */<br>
 position: static;<br>
 /* absolute 绝对定位 向上找非 static 定位的元素来定位 */<br>
