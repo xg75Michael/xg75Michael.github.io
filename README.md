@@ -1,20 +1,36 @@
 # Cheating Time
+---
 ## 目录
-* [ CSS-Properties](#CSS-Properties)  
-* [ CSS-Properties](#CSS-Properties)  
-* [ CSS-Properties](#CSS-Properties)  
+* [CSS-Properties](#CSS-Properties)  
+    >[1](#1)  
+    >>[2](#2)  
+    >>>[3](#3)  
+* [CSS-Properties](#CSS-Properties)  
 
 
+===
+ 表头  | 表头  | 表头
+ ---- | ----- | ------  
+ 单元格内容  | 单元格内容 | 单元格内容 
+ 单元格内容  | 单元格内容 | 单元格内容  
+---
+*强调*  (示例：斜体)<br>
+ _强调_  (示例：斜体)<br>
+**加重强调**  (示例：粗体)<br>
+ __加重强调__ (示例：粗体)<br>
+***特别强调*** (示例：粗斜体)<br>
+___特别强调___  (示例：粗斜体)<br>
+---
 /*---------- Positioning ----------*/
-/* static 静态定位 默认值 */
-position: static;
-/* absolute 绝对定位 向上找非 static 定位的元素来定位 */
-position: absolute;
-position: relative;
-position: fixed;
-/* sticky 粘性定位 需要配合 top/left 来写 IE不兼容 */
-position: sticky;
-position: -webkit-sticky;
+/* static 静态定位 默认值 */<br>
+position: static;<br>
+/* absolute 绝对定位 向上找非 static 定位的元素来定位 */<br>
+position: absolute;<br>
+position: relative;<br>
+position: fixed;<br>
+/* sticky 粘性定位 需要配合 top/left 来写 IE不兼容 */<br>
+position: sticky;<br>
+position: -webkit-sticky;<br>
 top: 0;
 right: 0;
 bottom: 0;
@@ -53,7 +69,13 @@ opacity: 1;
 
 
 ## CSS-Properties
-以下的 CSS 属性是对常用属性的一个总结，按照 [他的](https://codeguide.co/#css-declaration-order) 推荐的声明顺序书写
+以下的 `CSS` 属性是对常用属性的一个总结，按照 [他的](https://codeguide.co/#css-declaration-order "悬停显示文本") 推荐的声明顺序书写
+```
+这是一段代码的引用 没有标识任何语言
+```
+```JavaScript
+这是一段代码的引用 标识了 JavaScript
+```
 
 /*---------- Positioning ----------*/
 /* static 静态定位 默认值 */
