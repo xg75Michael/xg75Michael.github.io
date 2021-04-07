@@ -8,6 +8,7 @@
     - [Visual](#Visual) 
     - [Misc](#Misc)   
 - **[Links?](#links)**
+- **[Other](#Other)**
 - **[惊喜](#surprise)**
 ---
 
@@ -66,8 +67,15 @@ border-radius: 3px;<br>
 opacity: 1;<br>
 ---
 
+
+## Other
+### 关于 `SVG` 元素的模糊滤镜效果
+其他的不说，先上 demo 页面看[效果](https://www.html5tricks.com/demo/html5-svg-motion-blur-effect/index.html "feGaussianBlur")，快速拖动相册你会发现炫目的模糊效果。这个动画实现的办法就是使用 `svg` 创建一个带 `id` 的自定义 `filter` ，然后创建 `feGaussianBlur` 来做到的高斯模糊，它是有一个属性 `stdDeviation` 可以控制 `x,y` 方向的模糊程度。需要把这个 `id` 赋给你想要做模糊的元素，配合目标元素的 `css` 属性来关联 `filter: url("#thisid");`。<br>
+很多动画需要动态的改变这个 `stdDeviation` 值的属性，而且此属性实测不能用jQuery.js封装的对象来改变，只能转换成原生对象来进行更改数值。<br>
+想深入了解的客观请移步到 [这里](https://blog.csdn.net/frf0lw4/article/details/80479872 "有源码可下载") 和 [这里](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/feGaussianBlur "又是圣经") 。<br>
+
 [link text]: http://www.reddit.com <br>
-[link text]: http://www.reddit.com
+[link text]: http://www.reddit.com 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "title text")
 ---
 表头  | 表头  | 表头
